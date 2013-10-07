@@ -33,6 +33,9 @@ bool GameLayer::init()
 		//CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("shoot_background.plist");
 		//CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("shoot.plist");
 
+        //³õÊ¼»¯level
+		level=EASY;
+
 		//¼ÓÔØbackground Music
 		if (!CocosDenshion::SimpleAudioEngine::sharedEngine()->isBackgroundMusicPlaying())
 		{
