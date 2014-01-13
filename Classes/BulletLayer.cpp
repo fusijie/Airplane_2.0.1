@@ -71,7 +71,7 @@ void BulletLayer::bulletMoveFinished(CCNode* pSender)
 {
 	CCSprite* bullet=(CCSprite*)pSender;
 	m_pAllBullet->removeObject(bullet);
-	this->removeChild(bullet,true);
+	this->bulletBatchNode->removeChild(bullet,true);
 }
 
 void BulletLayer::RemoveBullet(CCSprite* bullet)
